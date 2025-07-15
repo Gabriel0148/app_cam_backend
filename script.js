@@ -9,7 +9,7 @@ const express = require('express');
 const cameraConfig = {
   xaddr: 'http://192.168.15.6:80/onvif/device_service',
   user: 'admin',
-  pass: 'Abcd321$'
+  pass: '********'
 };
 
 const rtspUrl = 'rtsp://admin:Abcd321$@192.168.15.6:554/cam/realmonitor?channel=1&subtype=0';
